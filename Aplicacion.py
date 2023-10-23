@@ -7,6 +7,7 @@ def menu():
     print("4. Listar")
     print("5. Salir")
 opcion = 1
+
 while opcion!=5:
     menu()
     opcion = int(input("opcion: "))
